@@ -41,9 +41,9 @@ sudo systemctl enable  nginx
 ```
 - change the backend public in frontend index.html login and signup
 ```
-// === Configuration ===
-    const SIGNUP_URL = 'http://backendip:5000/api/signup';
-    const LOGIN_URL  = 'http://backendip:5000/api/login';
+- // === Configuration ===
+-     const SIGNUP_URL = 'http://backendip:5000/api/signup';
+-     const LOGIN_URL  = 'http://backendip:5000/api/login';
 ```
 - after this copyrhis  files to nginx path
 ```
